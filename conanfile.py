@@ -103,7 +103,7 @@ class Xrpl(ConanFile):
         if self.options.jemalloc:
             self.requires('jemalloc/5.2.1')
         if self.options.reporting:
-            self.requires('cassandra-cpp-driver/2.15.3')
+            self.requires('cassandra-cpp-driver/2.16.2')
             self.requires('libpq/13.6')
         if self.options.rocksdb:
             self.requires('rocksdb/6.27.3')
